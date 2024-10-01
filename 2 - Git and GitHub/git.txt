@@ -1,14 +1,15 @@
 - Configure git
 git config --global user.name "username"
 git config --global user.email "email"
-git config user.name (check)
+git config user.name //check
 
 -check status
-git init
+git init //initialize the master
 git status
 
 -Git 3 Stage Architecture
 -Add modified file(s) in the staging Area
 git add .
+. mean to move all the changes into the stagging stage
 
 -Create a Commitgit commit -m "This is the description"
