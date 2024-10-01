@@ -32,5 +32,12 @@ git branch [branch_name]
 git checkout [branch_name]
 git switch [branch_name]
 
+to merge from feature to master, need to switch to master
+after that write
+git merge [branch_name]
+
+to delete the feature branch
+git branch -d [branch_name]
+
 M - modified (orange)
 U - Untracked (Green)
