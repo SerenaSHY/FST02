@@ -13,3 +13,24 @@ git add .
 . mean to move all the changes into the stagging stage
 
 -Create a Commitgit commit -m "This is the description"
+m is for message
+
+-Check the history 
+git log 
+git log --oneline
+exit log: only "q" in the log and enter
+
+-Branching
+
+-Check all of the branch
+git branch -a
+
+-Create a new branch
+git branch [branch_name]
+
+-Switch to a different branch
+git checkout [branch_name]
+git switch [branch_name]
+
+M - modified (orange)
+U - Untracked (Green)
