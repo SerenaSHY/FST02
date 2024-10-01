@@ -1,0 +1,14 @@
+- Configure git
+git config --global user.name "username"
+git config --global user.email "email"
+git config user.name (check)
+
+-check status
+git init
+git status
+
+-Git 3 Stage Architecture
+-Add modified file(s) in the staging Area
+git add .
+
+-Create a Commitgit commit -m "This is the description"
