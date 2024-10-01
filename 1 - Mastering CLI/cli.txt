@@ -1,0 +1,10 @@
+30.09.24 (Monday)
+Mastering CLI
+
+1.10.24 (Tuesday)
+Working Area 
+
+Staging Area (preparation stage)
+Prepare the files, git add 
+
+Commit stage 
