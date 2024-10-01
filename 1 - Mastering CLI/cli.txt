@@ -1,5 +1,30 @@
 30.09.24 (Monday)
-Mastering CLI
+Graphical User Interface (GUI)
+Command Line Interface (CLI)
+
+-Make Directory
+mkdir [directory_name]
+
+-Delete Directory
+rmdir [directory_name]
+
+-Print/Present Working Directory
+pwd
+
+-List all files and folder 
+ls
+
+-Change Directory
+cd [directory_path]
+
+-Go back to the parent directory
+cd ..
+
+-Create a file 
+touch [file_name.extension]
+
+-Delete a file
+rm [file_name.extension]
 
 1.10.24 (Tuesday)
 Working Area 
@@ -7,4 +32,4 @@ Working Area
 Staging Area (preparation stage)
 Prepare the files, git add 
 
-Commit stage 
+Commit stage
