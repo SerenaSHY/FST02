@@ -53,3 +53,5 @@ $ git push -u origin main (from github)
 
 [just in case it gt blocked, open the Credential Manager and remove all the Generic Credentials]
 [if want remove to update the new one, git remote remove origin]
+
+$ git push (if any changes and update to RR, Remote repository)
