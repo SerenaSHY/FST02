@@ -12,7 +12,8 @@ git status
 git add .
 . mean to move all the changes into the stagging stage
 
--Create a Commitgit commit -m "This is the description"
+-Create a Commit
+git commit -m "This is the description"
 m is for message
 
 -Check the history 
@@ -32,16 +33,19 @@ git branch [branch_name]
 git checkout [branch_name]
 git switch [branch_name]
 
+-Merging (Merge the code to a branch)
 to merge from feature to master, need to switch to master
 after that write
 git merge [branch_name]
 
+-Delete a branch
 to delete the feature branch
 git branch -d [branch_name]
 
 M - modified (orange)
 U - Untracked (Green)
 
+-Upload the Local repository to Remote repository in github for FIRST TIME
 $ git remote add origin https://github.com/SerenaSHY/FST02.git (from github)
 $ git remote -v
 $ git branch -M  (from github)
