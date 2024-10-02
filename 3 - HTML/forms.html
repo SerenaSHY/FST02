@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Forms</title>
+</head>
+<body>
+    <h1>Creating Forms</h1>
+    <form action="">
+        <div>
+            <label for="fullname-id">Name:</label>
+            <input type="text" name="user-fullname" id="fullname-id" placeholder="John Doe" required>
+        </div>
+        <br>
+        <div>
+            <label for="email-id">Email:</label>
+            <input type="email" name="user-email" id="email-id" placeholder="johndoe@example.com" required>
+        </div>
+        <br>
+        <div>
+            <label for="password-id">Password:</label>
+            <input type="password" name="user-password" id="password-id" placeholder="*******" required>
+        </div>
+        <br>
+        <div>
+            <label for="age-id">Age:</label>
+            <input type="number" name="user-age" id="age-id" placeholder="30" min="18" max="100" required>
+        </div>
+        <br>
+        <div>
+            <label for="message-id">Message:</label>
+            <br>
+            <textarea name="user-message" id="message-id" placeholder="What's on your mind" cols="40" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="gender-id">Gender:</label>
+            <select name="user-gender" id="gender-id">
+                <option value="none" selected disabled hidden>-- Select your Gender --</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="radio" name="profile-status" id="public-id" value="Public" checked>
+            <label for="public-id">Public</label>
+            <input type="radio" name="profile-status" id="private-id" value="Private">
+            <label for="private-id">Private</label>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="genre" id="action-id" value="action">
+            <label for="action-id">Action</label>
+            <input type="checkbox" name="genre" id="suspense-id" value="suspense">
+            <label for="suspense-id">Suspense</label>
+            <input type="checkbox" name="genre" id="comedy-id" value="comedy">
+            <label for="comedy-id">Comedy</label>
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <!-- for different type of font/icon dictionary can go to fontawesome.com -->
+    </form>
+</body>
+</html>
