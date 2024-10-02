@@ -41,3 +41,11 @@ git branch -d [branch_name]
 
 M - modified (orange)
 U - Untracked (Green)
+
+$ git remote add origin https://github.com/SerenaSHY/FST02.git (from github)
+$ git remote -v
+$ git branch -M  (from github)
+$ git push -u origin main (from github)
+
+[just in case it gt blocked, open the Credential Manager and remove all the Generic Credentials]
+[if want remove to update the new one, git remote remove origin]
