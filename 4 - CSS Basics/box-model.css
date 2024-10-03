@@ -1,0 +1,57 @@
+/* Padding (inner spacing) - space within the box */
+.box1 {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+/* Shorthand - Adding padding to each side */
+/* Clockwise direction starting top */
+/* 4 Values = top, right, bottom, left */
+/* 3 Values = top, left and right, bottom */
+/* 2 Values = top and bottom, left and right */
+/* 1 Value = all sides */
+.box2 {
+    padding: 20px 40px 20px 40px;
+}
+
+/* Adding Margin to each side */
+.box3 {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+/* Margin Shorthand */
+/* similar to shorthand for padding */
+.box4 {
+    margin: 10px;
+}
+
+/* Borders */
+.mix-borders {
+    height: 100px;
+    width: 200px;
+    background-color: aquamarine;
+    border-style: solid dashed dotted double;
+    /* border-style: solid none none none; */
+    /* border-top: solid; */
+    border-width: 4px;
+    border-color: tomato yellow blue green;
+
+    /* shorthand version */
+    /* border: 10px tomato dashed */
+}
+
+/* Circle container */
+.circle-container {
+    background-color: aqua;
+    height: 200px;
+    width: 150px;
+    /* uniform curve for %, if px - curved corner of the square */
+    border-radius: 50%;
+    text-align: center;
+    color: tomato;
+}

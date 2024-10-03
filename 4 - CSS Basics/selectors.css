@@ -1,0 +1,49 @@
+/* If there's no id then it doesn't need add # in fornt of it */
+/* the span tag will be applied to all span tags */
+/* Element selector */
+span {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: green;
+}
+
+/* Class selector */
+.intro-paragraphs {
+    color: red;
+    background-color: pink;
+}
+
+/* ID selector */
+#main-heading {
+    font-weight: bold;
+}
+
+/* Universal, '*' for all */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Grouping Selector */
+h1, h2, .about-content {
+    color: orange;
+    text-align: center;
+}
+
+/* Descendant Selector */
+.article-container p {
+    font-style: italic;
+    color: green;
+}
+
+/* Pseudo-classes */
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: red;
+    font-size: 18px;
+}
+
+a:active {
+    color: yellow;
+}

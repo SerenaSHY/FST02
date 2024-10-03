@@ -1,0 +1,88 @@
+#text-styling{
+    /* Default: Times New Roman */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Font Weight */
+    /* Keyword values availability: Search on Google Fonts, fonts.google.com/specimen/Roboto */
+    font-weight: normal;
+    font-weight: bold;
+
+    /* Numberic Values */
+    /* [100-950] */
+    font-weight: 300;
+    font-weight: 400; /* default value */
+    font-weight: 700; /* Bold */
+
+    /* Font Style */
+    font-style: italic;
+    font-style: normal;
+    font-style: oblique;
+
+    /* Line height */
+    line-height: normal;
+    line-height: 1.5;
+    line-height: 50%;
+    line-height: 16px;
+
+    /* Add spacing between letters */
+    letter-spacing: 4px;  /* adds spaces */
+    letter-spacing: -2px; /* removes spaces */
+    letter-spacing: normal;
+
+    /* Add spacing between words */
+    word-spacing: -10px;
+    word-spacing: 10px;
+}
+
+#text-decoration {
+    text-decoration: line-through;
+    text-decoration: overline;
+    text-decoration: underline;
+
+    text-decoration: underline overline line-through;
+
+    text-decoration-style: solid;
+    text-decoration-style: double;
+    text-decoration-style: dotted;
+    text-decoration-style: dashed;
+    text-decoration-style: wavy;
+
+    text-decoration-color: red;
+
+    /* Combine all of them */
+    text-decoration: overline solid red;
+}
+
+#colors {
+    /* Color Names */
+    color: whitesmoke;
+    background-color: blue;
+
+    /* RGB */
+    /* rgb (red, green, blue) [0, 250] */
+    color: rgb(72, 213, 16);
+    /* alpha - Fully Transparent(0.0) Fully Opaque(1.0) */
+    background-color: rgba(0, 0, 0, 0.2);
+
+    /* Hexadecimal coolors.co or cssgradient.io*/
+    /* #RRGGBB in bits [0-9, A-F] */
+    color: #e0e1dd;
+    background-color: #1b263b;
+}
+
+/* Units of Measurement */
+#absolute-unit-px {
+    font-size: 24px;
+}
+
+    /* Relative to the parent element */
+#relative-unit-em{
+    font-size: 2em;
+    /* 1em = 20 px */
+}
+
+/* Relative to the root element */
+#relative-unit-rem {
+    font-size: 1rem;
+    /* 1rem = 16px */
+}

@@ -1,0 +1,30 @@
+<!-- https://github.com/OneCodeCampCommunity/occ-frontend-fundamentals/blob/main/CSS%20Basics/three-ways-css.md -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Three Ways</title>
+    <!-- External Styling -->
+     <link rel="stylesheet" href="three-ways.css">
+
+    <!-- Internal Styling -->
+     <style>
+        #internal-styling {
+            color: white; 
+            background-color: blueviolet;
+        }
+     </style>
+  </head>
+  <body>
+    <!-- Inline Styling -->
+     <!-- Declaration: Property: Value: -->
+    <p style="color: red; background-color: yellow;">This is a paragraph with inline styling.</p>
+
+    <!-- Internal Styling -->
+    <p id="internal-styling">This is a paragraph with internal styling.</p>
+
+    <!-- External Styling -->
+    <p id="external-styling">This is a paragraph with external styling.</p>
+  </body>
+</html>
