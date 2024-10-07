@@ -52,6 +52,8 @@
     width: 150px;
     /* uniform curve for %, if px - curved corner of the square */
     border-radius: 50%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: tomato;
 }

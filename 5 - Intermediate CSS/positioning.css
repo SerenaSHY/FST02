@@ -1,0 +1,38 @@
+/* Position: Static */
+/* Elements follow the normal document flow */
+
+/* Relative Position: Relative to it's original position */
+#relative {
+    background-color: #fc0;
+    position: relative;
+    /* top, right, bottom, left */
+    top: 10px;
+    left: 50px;
+}
+
+/* Absolute Position: Relative to the parent container that have position that is not static */
+#absolute {
+    background-color: #0cf;
+    position: absolute;
+    /* top, right, bottom, left */
+    top: 0;
+    right: 0px;
+}
+
+/* Fixed position: Relative to the viewport (stays on the same place when scroll) */
+#fixed {
+    background-color: red;
+    position: fixed;
+    /* top, right, bottom, left */
+    bottom: 0px;
+    right: 0px;
+}
+
+/* Sticky Position: suitable for Announcement */
+/* will stays near 0px when scroll down */
+#sticky {
+    background-color: #3c3;
+    position: sticky;
+    /* top, right, bottom, left */
+    top: 0px;
+}
